@@ -28,15 +28,16 @@ fs.readFile(filePath, (err, data) => {
             fs.appendFile(fileName, 'A new file is created', 'utf8', (err) => {
                 if (err) console.log('Error in file creation with the error message is : ' + err.message)
                 else console.log(`File ${fileName} is created succesfully`);
+                rl.close();
             });
-
-            rl.close();
         });
-
     }
     // If there is NOT any error reading the file then print the content of the file to screen
     else {
         console.log('File content is : ' + data);
+        rl.close();
     }
 });
+
+
 
