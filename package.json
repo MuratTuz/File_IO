@@ -1,0 +1,16 @@
+{
+  "name": "file_io",
+  "version": "1.0.0",
+  "description": "File input output processes",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "I/O"
+  ],
+  "author": "murattuzlali@gmail.com",
+  "license": "MIT"
+}

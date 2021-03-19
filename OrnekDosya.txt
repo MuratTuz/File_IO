@@ -1,0 +1,1 @@
+Bu dosya node.js uygulamasinda kullanilmak üzere olusturulmustur.
